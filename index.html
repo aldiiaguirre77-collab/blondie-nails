@@ -658,6 +658,28 @@
             document.getElementById('card-display').classList.add('hidden');
             document.getElementById('search-section').classList.remove('hidden');
         }
-    </script>
-</body>
-</html>
+    </script><script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAl2pPvpRiQlimhw_G96tuv1kfpkTEMjFI",
+    authDomain: "blondie-2222.firebaseapp.com",
+    projectId: "blondie-2222",
+    storageBucket: "blondie-2222.firebasestorage.app",
+    messagingSenderId: "929035608026",
+    appId: "1:929035608026:web:71046b25101fe3049eaae3",
+    measurementId: "G-K4878JMYKL"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</body></html>
